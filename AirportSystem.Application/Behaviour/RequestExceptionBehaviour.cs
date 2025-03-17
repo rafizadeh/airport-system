@@ -1,7 +1,7 @@
-﻿using CSharpFunctionalExtensions;
+﻿using Serilog;
 using MediatR;
 using MediatR.Pipeline;
-using Serilog;
+using CSharpFunctionalExtensions;
 
 namespace AirportSystem.Application.Behaviour
 {
