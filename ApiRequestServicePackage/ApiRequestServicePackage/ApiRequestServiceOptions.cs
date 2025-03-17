@@ -12,9 +12,7 @@ namespace ApiRequestServicePackage
 
         #region HttpClient options
         public Uri BaseAddress { get; set; }
-
         public Dictionary<string, string> Headers { get; }
-
         public void AddHeader(string key, string value)
         {
             if (!Headers.TryAdd(key, value)) Headers[key] = value;
@@ -23,9 +21,7 @@ namespace ApiRequestServicePackage
 
         #region HttpClientHandler options
         public List<X509Certificate2> X509Certificate2s { get; }
-
         public bool CheckServerCertificate { get; private set; }
-
         public void AddCertificate(X509Certificate2 x509Certificate2) => X509Certificate2s.Add(x509Certificate2);
         #endregion
     }
