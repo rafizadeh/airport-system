@@ -1,6 +1,6 @@
-﻿using AirportSystem.Application.Interfaces;
+﻿using CSharpFunctionalExtensions;
 using AirportSystem.Application.Models;
-using CSharpFunctionalExtensions;
+using AirportSystem.Application.Interfaces;
 
 namespace AirportSystem.Infrastructure.Services
 {
